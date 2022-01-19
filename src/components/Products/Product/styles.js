@@ -2,11 +2,12 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(() => ({
     root:{
-        width: '250px',
-        boxShadow: '2px 2px 20px rgba(0,0,0,0.3)'
+        width: '180px',
+        boxShadow: '2px 2px 20px rgba(0,0,0,0.3)',
+        height: '300px'
     },
     img:{
-        height: '250px',
+        height: '200px',
     },
     media:{
         width: '100%',
@@ -14,19 +15,15 @@ export default makeStyles(() => ({
         objectFit: 'cover',
         boxSizing: 'border-box',
     },
-    cartIconButton:{
-        backgroundColor: '#ffffff',
-
-    },
-    cardCartOverlayVisible:{
+    addToCartButtonVisible:{
         width: '100%',
-        height: '100%',
-        backgroundColor: '#47474769',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
+        border: 'none',
+        color: '#ffffff',
+        backgroundColor: 'orange',
+        height: '15%',
+        marginTop: '85%'
     },
-    cardCartOverlayHidden:{
+    addToCartButtonHidden:{
         visibility: 'hidden',
     },
     cardContainer:{
@@ -35,7 +32,6 @@ export default makeStyles(() => ({
         width: '100%'
     },
     cardContent:{
-        height: '70px',
         padding: '10px',
         display: 'flex',
         alignItems: 'center',
