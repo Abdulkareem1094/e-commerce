@@ -18,7 +18,7 @@ const Products = () => {
     const classes = useStyles();
 
     return (
-        <main>
+        <>
             <Grid className={classes.container} container align='center'> 
                 {products.map((product) => (
                     <Grid item key={product.id} xs={6} sm={6} md={4} lg={3} >
@@ -26,7 +26,7 @@ const Products = () => {
                     </Grid>
                 ))}
             </Grid>
-        </main>
+        </>
     )
 }
  
