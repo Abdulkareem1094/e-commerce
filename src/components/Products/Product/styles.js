@@ -4,7 +4,8 @@ export default makeStyles(() => ({
     root:{
         width: '150px',
         boxShadow: '2px 2px 5px rgba(0,0,0,0.3)',
-        height: '200px'
+        height: '200px',
+        margin: '10px'
     },
     img:{
         height: '150px',
@@ -21,7 +22,7 @@ export default makeStyles(() => ({
         color: '#ffffff',
         backgroundColor: 'orange',
         height: '15%',
-        marginTop: '85%'
+        marginTop: '85%',
     },
     addToCartButtonHidden:{
         visibility: 'hidden',
