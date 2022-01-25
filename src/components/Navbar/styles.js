@@ -15,13 +15,17 @@ export default makeStyles((theme) => ({
         flexGrow: 1,
         textDecoration: 'none',
         display: 'flex',
-        alignItem: 'center'
+        alignItem: 'center',
+        color: '#888888'
     },
     image:{
-        marginRight: '10px'
+        marginRight: '10px',
     },
     grow:{
         flexGrow: '1'
+    },
+    shoppingCartIcon: {
+        color: 'orange'
     },
     // menuButton:{
     //     marginRight: theme.spacing(2),

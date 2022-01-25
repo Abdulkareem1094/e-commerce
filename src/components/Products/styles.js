@@ -4,6 +4,6 @@ export default makeStyles(() => ({
     container:{
         display: 'flex',
         justifyContent: 'center',
-        // maxWidth: '1000px'
+        width: '100%'
     }
 }));
