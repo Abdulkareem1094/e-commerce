@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Img from '../../assets/images/samsungadd.jpg'
 
 const ItemsStyles = styled.div`
   .item{
@@ -18,7 +19,7 @@ const Items = () => {
   return (
       <ItemsStyles>
         <div className="item">
-          <img src="" alt="1" />
+          <img src={Img} alt="1" />
         </div>
       </ItemsStyles>
   )

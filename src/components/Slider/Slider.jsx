@@ -1,10 +1,10 @@
 import React from 'react';
-import Items from '../../data/Items';
+import Items from '../../assets/data/Items';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation } from 'swiper';
 import SlideItem from './SlideItem'
 import styled from 'styled-components';
-import 'swiper/css'
+import 'swiper/css/bundle'
 
 SwiperCore.use([Navigation]);
 

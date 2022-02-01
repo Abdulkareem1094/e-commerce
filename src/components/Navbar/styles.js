@@ -16,10 +16,13 @@ export default makeStyles((theme) => ({
         textDecoration: 'none',
         display: 'flex',
         alignItem: 'center',
-        color: '#888888'
+        color: '#888888',
     },
     image:{
         marginRight: '10px',
+        height: '50px',
+        borderRadious: '5px',
+        border: '1px solid gray',
     },
     grow:{
         flexGrow: '1'
