@@ -11,7 +11,7 @@ SwiperCore.use([Navigation]);
 const SliderStyles = styled.div`
   .container{
     display: flex;
-    margin: 0 5px;
+    margin: 0 5px 10px 5px;
   }
 `;
 

@@ -5,31 +5,36 @@ const drawerWidth = 0;
 export default makeStyles((theme) => ({
     appBar:{
         boxShadow: 'none',
-        borderBottom: '1px solid rgba(0, 0, 0, 0.12)',
+        borderBottom: '1px solid rgba(0, 0, 0, 0.52)',
         [theme.breakpoints.up('sm')]: {
             width: `calc(100% - &{drawerWidth}px)`,
             marginLeft: drawerWidth,
         }
     },
     title:{
-        flexGrow: 1,
         textDecoration: 'none',
         display: 'flex',
         alignItem: 'center',
-        color: '#888888',
+        color: 'black',
     },
     image:{
         marginRight: '10px',
         height: '50px',
-        borderRadious: '5px',
         border: '1px solid gray',
     },
     grow:{
         flexGrow: '1'
     },
     shoppingCartIcon: {
-        color: 'orange'
+        color: '#b30059'
     },
+    k: {
+        color: '#b30059',
+    },
+    s: {
+        color: 'orange',
+        marginLeft: '5px',
+    }
     // menuButton:{
     //     marginRight: theme.spacing(2),
     //     [theme.breakpoints.up('2')]:{

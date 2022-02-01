@@ -3,9 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles(() => ({
     root:{
         width: '150px',
-        boxShadow: '2px 2px 5px rgba(0,0,0,0.3)',
+        boxShadow: '2px 2px 0px 0px rgba(0,0,0,0.3)',
         height: '200px',
-        margin: '10px'
+        margin: '10px',
+        border: '0.5px solid rgba(0,0,0,0.2)',
+ 
     },
     img:{
         height: '150px',

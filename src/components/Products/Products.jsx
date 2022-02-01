@@ -5,9 +5,7 @@ import useStyles from './styles';
 import styled from 'styled-components'
 
 const NavbarStyles = styled.div`
-    @media only screen and ( max-width: 768px){
-        
-    } 
+
 `;
 
 const products = [
