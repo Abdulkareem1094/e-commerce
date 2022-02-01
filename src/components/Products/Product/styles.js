@@ -34,7 +34,6 @@ export default makeStyles(() => ({
     },
     cardContent:{
         padding: '5px 10px',
-        backgroundColor: ''
     },
     cardHeader:{
         fontSize: '0.6rem',
