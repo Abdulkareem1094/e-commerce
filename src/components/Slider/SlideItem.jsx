@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Img from '../../assets/images/samsungadd.jpg'
 
 const ItemsStyles = styled.div`
   .item{
@@ -13,16 +12,21 @@ const ItemsStyles = styled.div`
       height: 100%;
     }
   }
+  @media only screen and (max-width: 768px){
+    .item{
+      height: 200px;
+    }
+  }
 `;
 
-const Items = () => {
+const SlideItem = ({ imageLink }) => {
   return (
       <ItemsStyles>
         <div className="item">
-          <img src={Img} alt="1" />
+          <img src={imageLink} alt="1" />
         </div>
       </ItemsStyles>
   )
 };
 
-export default Items;
+export default SlideItem;

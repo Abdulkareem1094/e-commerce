@@ -6,8 +6,4 @@ export default makeStyles(() => ({
         justifyContent: 'center',
         width: '100%',
     },
-    // hr:{
-    //     marginTop: '10px',
-    //     border: '2px solid orange'
-    // }
 }));

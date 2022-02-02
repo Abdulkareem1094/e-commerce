@@ -8,23 +8,23 @@ import Image5 from '../images/samsungadd.jpg'
 const Items = [
     {
         id:1,
-        image:{Image1}
+        image: Image1
     },
     {
         id:2,
-        image:{Image2}
+        image:Image2
     },
     {
         id:3,
-        image:{Image3}
+        image:Image3
     },
     {
         id:4,
-        image:{Image4}
+        image:Image4
     },
     {
         id:5,
-        image:{Image5}
+        image:Image5
     },
 ]
 

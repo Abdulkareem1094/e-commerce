@@ -12,6 +12,11 @@ const SliderStyles = styled.div`
   .container{
     display: flex;
     margin: 0 5px 10px 5px;
+    gap: 3rem;
+  }
+  .swiper-button-prev,
+  .swiper-button-next{
+    color: orange;
   }
 `;
 
@@ -24,8 +29,10 @@ const Slider = () => {
         >
           {Items.map((item) => {
             return (
-              <SwiperSlide key={Items.id}>
-                <SlideItem/>
+              <SwiperSlide key={item.id}>
+                <SlideItem 
+                imageLink={item.image}
+                />
               </SwiperSlide>
             );
           })}
